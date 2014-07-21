@@ -9,9 +9,27 @@
     tools:context=".MainActivity">
 
     <Button
+        android:id="@+id/button1"
         android:text="@string/toast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="showToast"/>
+        android:onClick="showToast"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:text="@string/toastShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showToast"
+        android:layout_alignLeft="@id/button1"
+        android:layout_alignRight="@id/button1"
+        android:layout_below="@id/button1"
+        android:layout_marginBottom="4dp"
+        android:layout_marginTop="4dp"/>
 
 </RelativeLayout>
