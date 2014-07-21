@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">ToastTest</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="toast">Create Toast</string>
     <string name="action_settings">Settings</string>
 
 </resources>
